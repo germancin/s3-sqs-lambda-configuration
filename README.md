@@ -81,9 +81,9 @@ Then Select the `SQS Service we create`
 Now let's go to ```Amazon SQS -> Queues -> resize-queue -> Send and receive messages```
 
 You should be seeing a `New Message` withthe following body
-``` 
+`
 {"Service":"Amazon S3","Event":"s3:TestEvent","Time":"2021-11-19T03:52:22.110Z","Bucket":"resize-bc","RequestId":"P4379M19B0QKDZPE","HostId":"UOgEM9+KrjWmuPJHoe7BCMKu2OrbRBGv9HS9b8yOHrNJ/6VAylowOTQ8HH/UpvJx4yNnB2PH0Qc="}
-```
+`
 
 
 
