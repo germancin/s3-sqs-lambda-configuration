@@ -63,6 +63,26 @@ If everythin is ok it will let you save other way will tell you the errors.
 }
 ```
 
-### Go to `S3` Service and now we are going to connect the `S3` bucke so it send the notification to the `SQS`
+### NOW !
+Go to `S3` Service and now we are going to connect the `S3` bucke so it send the notification to the `SQS`
+
+In the `S3 bucket` go to the `properties` section and add a `Event Notification`
+
+Add a name.
+
+Select the `All object create events` 
+
+Go to the bottom and select 
+`` SQS queue
+    Send notifications to an SQS queue to be read by a server.``
+
+
+
+
+
+
+
+
+
 
 
