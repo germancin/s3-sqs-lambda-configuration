@@ -85,6 +85,7 @@ You should be seeing a `New Message` withthe following body
 `
 {"Service":"Amazon S3","Event":"s3:TestEvent","Time":"2021-11-19T03:52:22.110Z","Bucket":"resize-bc","RequestId":"P4379M19B0QKDZPE","HostId":"UOgEM9+KrjWmuPJHoe7BCMKu2OrbRBGv9HS9b8yOHrNJ/6VAylowOTQ8HH/UpvJx4yNnB2PH0Qc="}
 `
+
 So now if we add manually a file the bocket we choosed we shuld be seeing another message bcs they are already connected.
 
 With this we finish the first part.
@@ -93,8 +94,24 @@ Now let's connect the `SQS` to trigger the `Lambda Function.`
 
 When this happen we will be able to go to `ClouldWatch` and start checking our console logs.
 
+### Go to `SQS Service` and click in `Lambda triggers`
 
-### Go to `SQS Service` 
+Add a New one 
+
+Go to the `Trigger Amazon Lambda Function` 
+
+and select the `Lambda Funtion` you want to connect.
+
+You will receive a error message 
+
+`Couldn't configure trigger for queue.
+Error code: InvalidParameterValueException. Error message: The provided execution role does not have permissions to call ReceiveMessage on SQS`
+
+This error is bcs you don't have `the permissions in the lambda function` to receive and send notifications to Lambda.
+
+So let's add those roles/permissions 
+
+
 
 
 
