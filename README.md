@@ -34,6 +34,8 @@ Now the file should be like this where
 
 `"Service":` Is the service we want to use to connecto this 2 
 
+If everythin is ok it will let you save other way will tell you the errors.
+
 ```
 {
   "Version": "2008-10-17",
@@ -61,6 +63,6 @@ Now the file should be like this where
 }
 ```
 
-
+### Go to `S3` Service and now we are going to connect the `S3` bucke so it send the notification to the `SQS`
 
 
