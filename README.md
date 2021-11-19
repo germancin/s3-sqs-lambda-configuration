@@ -1,13 +1,15 @@
 # S3 SQS && Lambda Pipeline
 
-### 1. Create a lambda function
+### 1. Create a SQS service
 
-Create a lambda function select`use a Bluprint` so we can have some code example plus
-a basic role permition to have access to send messages to `SQS` service.
+Create an standar `SQS Service`.
 
-<img src="https://res.cloudinary.com/kazamap/image/upload/v1637290323/bom/lambda1.png" />
+### 2. Create a lambda function
 
-### 2. Create a SQS service
+- Create a lambda function select`Author from scratch` 
+- 
+
+
 
 
 ### 3. Create a S3 bucket 
