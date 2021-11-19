@@ -15,9 +15,11 @@ Create an standar `SQS Service`.
 Create an S3 bucket.
 
 
-### Let's create our pipeline
+# Let's create our pipeline
 
 The goal here is make the `S3` to create a `SQS` which will trigger a `Lambda function`
+
+Basically we need to connect them all and for this we will need several configurations in place and some roles to have permitions to write and send messages from the `S3` to the `SQS` and in the same way more permitions to connect SQS to trigger the `lambda fucntion`
 
 
 
