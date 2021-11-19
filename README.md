@@ -111,6 +111,30 @@ This error is bcs you don't have `the permissions in the lambda function` to rec
 
 So let's add those roles/permissions 
 
+Go got he Lambda funciton and in the permissions section click on edit the current role and add anew from template. 
+
+Create a new role from AWS policy templates
+
+and look for `SQS Poller Permissions`
+
+Now go and try again to add a Lambda trigger int he the SQS service we create.
+
+This time you should be all good.
+
+# Let's test it 
+
+Manually add a file into the bucket we create and go to the `CloudWatch` and look for the lambda function and check the logs you should be getting  the message of the lambda function which was trgger by the SQS Service.
+
+
+
+
+
+
+
+
+
+
+
 
 
 
