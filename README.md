@@ -76,6 +76,8 @@ Go to the bottom and select
 `` SQS queue
     Send notifications to an SQS queue to be read by a server.``
 
+Then Select the `SQS Service we create`
+
 
 
 
